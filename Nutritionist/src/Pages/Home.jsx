@@ -340,25 +340,101 @@ const Home = () => {
           resources
         </p>
 
-        <div className="mt-20">
-    
-        <a href="##" 
-        class="bg-[#F6FBE9]shadow border border-[#E5F5BD] rounded-lg py-3.5  
-        inline-block mr-4 w-[233px] h-[67px] leading-[27px] text-center">
-                Book a Demo
-              </a>
+        <div className="mt-20 flex justify-center items-center">
+          <div class="bg-[#F6FBE9] shadow border border-[#E5F5BD] rounded-lg py-2 inline-block w-[240px] h-[67px] leading-[27px] ">
+            <div class="bg-[#234338] shadow border  rounded-lg  inline-block w-[114px] h-[47px] leading-[27px] text-white py-2 ">
+              <p>Monthly</p>
+            </div>
 
-
+            <div class="bg-[#F6FBE9] shadow border border-[#E5F5BD]   rounded-lg  inline-block w-[114px] h-[47px] leading-[27px]  py-2 ">
+              <p>Yearly</p>
+            </div>
+          </div>
         </div>
-
-
+        <p className="mt-3.5">Save 50% on Yearly</p>
       </div>
 
+      {/* Packages section */}
+      <div className="mx-40 mt-20 flex mb-36">
+        <div className="w-[400px] h-[497px] bg-[#F6FBE9] shadow border border-[#E5F5BD] rounded-xl mt-7 ">
+          <div className="mx-10 my-10">
+            <h1 className="text-3xl font-semibold">Premium Plan</h1>
+            <p>Up to 50% off on Yearly Plan</p>
+            <p className="mt-10 text-lg ">
+            Upgrade to our Premium Plan for enhanced features. In addition to the Basic Plan,
+             you'll receive video consultations, priority support, 
+             and personalized recipe recommendations..
+            </p>
 
+            <h1 className="text-[50px] font-bold mt-10 text-[#2C5446]">
+            $79 <span className="text-[#000000] text-lg">/month</span>
+            </h1>
 
+            <div className="mt-4">
+              <a
+                href="##"
+                class="bg-[#CBEA7B] shadow border rounded-lg py-3.5 font-medium inline-block mr-4 
+                w-[300px] h-[58px] leading-[27px] text-center "
+              >
+                Choose Plan
+              </a>
+            </div>
+          </div>
+        </div>
+        {/* next one starts here */}
+        <div className="w-[400px] h-[497px] bg-[#F6FBE9] shadow border border-[#E5F5BD] rounded-xl mt-7 ml-10 ">
+          <div className="mx-10 my-10">
+            <h1 className="text-3xl font-semibold">Basic Plan</h1>
+            <p>Up to 50% off on Yearly Plan</p>
+            <p className="mt-10 text-lg ">
+              Get started on your health journey with our Basic Plan. It
+              includes personalized nutrition coaching, access to our app, meal
+              planning assistance, and email support.
+            </p>
 
+            <h1 className="text-[50px] font-bold mt-10 text-[#2C5446]">
+              $49 <span className="text-[#000000] text-lg">/month</span>
+            </h1>
 
-      
+            <div className="mt-4">
+              <a
+                href="##"
+                class="bg-[#CBEA7B] shadow border rounded-lg py-3.5 font-medium inline-block mr-4 
+                w-[300px] h-[58px] leading-[27px] text-center "
+              >
+                Choose Plan
+              </a>
+            </div>
+          </div>
+        </div>
+          {/* next one starts here */}
+          <div className="w-[400px] h-[497px] bg-[#F6FBE9] shadow border border-[#E5F5BD] rounded-xl mt-7 ml-10">
+          <div className="mx-10 my-10">
+            <h1 className="text-3xl font-semibold">Ultimate Plan</h1>
+            <p>Up to 50% off on Yearly Plan</p>
+            <p className="mt-10 text-lg ">
+            Experience the full benefits of personalized nutrition coaching with our Ultimate Plan. 
+            Enjoy all the features of the Premium Plan, along with 24/7 chat support and exclusive workshops.
+            </p>
+
+            <h1 className="text-[50px] font-bold mt-10 text-[#2C5446]">
+            $99 <span className="text-[#000000] text-lg">/month</span>
+            </h1>
+
+            <div className="mt-4">
+              <a
+                href="##"
+                class="bg-[#CBEA7B] shadow border rounded-lg py-3.5 font-medium inline-block mr-4 
+                w-[300px] h-[58px] leading-[27px] text-center "
+              >
+                Choose Plan
+              </a>
+            </div>
+          </div>
+        </div>
+        {/* next one starts here */}
+
+      </div>
     </div>
   );
 };
