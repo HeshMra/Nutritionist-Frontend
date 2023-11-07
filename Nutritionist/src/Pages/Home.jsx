@@ -1,5 +1,5 @@
 import React from "react";
-
+import Carasoul from "../Components/carasoul";
 const Home = () => {
   return (
     <div>
@@ -310,7 +310,8 @@ const Home = () => {
           {/* next container start here */}
         </div>
       </div>
-
+      
+     
       {/* Testimonial section  */}
 
       <div className="text-center mt-36">
@@ -321,6 +322,7 @@ const Home = () => {
         </p>
       </div>
 
+      <Carasoul/>
       {/* carasoul should add Here
       -
       -
