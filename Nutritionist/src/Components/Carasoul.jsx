@@ -18,10 +18,10 @@ export default function Carasoul() {
 
 
   return (
-    <div className='mx-40 my-20'>
+    <div className='md:mx-40 md:my-20 mx-auto my-10'>
       <Swiper
         onSwiper={setSwiperRef}
-        slidesPerView={3}
+        slidesPerView={[1,3]}  
         centeredSlides={true}
         spaceBetween={30}
         pagination={{
@@ -30,6 +30,7 @@ export default function Carasoul() {
         navigation={true}
         modules={[Pagination, Navigation]}
         className="mySwiper"
+        
       >
         <SwiperSlide><img src="Images/Card.png" alt="" /></SwiperSlide>
         <SwiperSlide><img src="Images/Card-1.png" alt="" /></SwiperSlide>
